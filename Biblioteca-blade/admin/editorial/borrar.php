@@ -1,11 +1,6 @@
 <?php
-    if(!$_SESSION['id'] && $_SESSION["tipo"] == "bibliotecario"){
-
-        header('location:login.php');
-
-    }
-    require "vendor/autoload.php";
-    require "config.php";
+    
+    
     require "../../vendor/autoload.php";
     require "../../config.php";
 
